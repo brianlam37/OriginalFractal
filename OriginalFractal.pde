@@ -6,7 +6,7 @@ oFrac((int)(Math.random()*30),(int)(Math.random()*30),(int)(Math.random()*30),(i
 
 
 public void oFrac(int x, int y, int siz, int amt){
-if(amt>0){
+if(amt>1){
 		stroke(color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)));
 		fill(color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)));
 		oFrac(x+amt/2,y+amt/2,siz,amt/2);
