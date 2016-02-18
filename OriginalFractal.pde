@@ -1,7 +1,7 @@
 public void setup() {
   size(400, 400);
 
-oFrac((int)(Math.random()*30),(int)(Math.random()*30),(int)(Math.random()*30),50);
+oFrac((int)(Math.random()*30),(int)(Math.random()*30),(int)(Math.random()*30),(int)(Math.random()*50));
 }
 
 
